@@ -8,6 +8,10 @@ configuration:
 #   - x86
 #   - x64
 
+cache:
+  - appveyor\Debug
+  - appveyor\Release
+  - appveyor\x64
 
 artifacts:
   - path: x64\$(configuration)\
