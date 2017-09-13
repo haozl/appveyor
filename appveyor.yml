@@ -10,6 +10,6 @@ image: Visual Studio 2017
 
 
 artifacts:
-  - path: Debug
+  - path: x64
     name: dist
     type: zip
