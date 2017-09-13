@@ -10,5 +10,6 @@ image: Visual Studio 2017
 
 
 artifacts:
-  - path: dist.zip
+  - path: $(configuration)
     name: app
+    type: zip
